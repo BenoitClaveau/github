@@ -50,7 +50,7 @@ git push
 
 Warning: if you created new file, you need to add it to your local repository before the commit.
 
-### New file
+### Add
 
 ```shell
 git add .
