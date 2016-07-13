@@ -62,7 +62,7 @@ git push
 
 ## Checkout
 
-## [Cheat Sheet](https://github.com/beny78/github/documents/github-git-cheat-sheet/)
+## [Cheat Sheet](documents/github-git-cheat-sheet.pdf)
 
 # Writing Markdown files
 
