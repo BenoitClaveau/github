@@ -35,6 +35,16 @@ git push origin master
 
 [guide](https://help.github.com/articles/create-a-repo/)
 
+## Pull
+
+Pull refers to when you are fetching in changes and merging them. For instance, if someone has edited the remote file you're both working on, you'll want to pull in those changes to your local copy so that it's up to date.
+
+### Command Line Interface
+
+```shell
+git pull
+```
+
 # Writing Markdown files
 
 [guide](https://guides.github.com/features/mastering-markdown/)
