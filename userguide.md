@@ -11,8 +11,9 @@ In this guide you'll discover how use GitHub
  
 # Official Documentation
 
-> [Cheat Sheet](documents/github-git-cheat-sheet.pdf)
-> [Git Reference](http://gitref.org/)
+[Cheat Sheet](documents/github-git-cheat-sheet.pdf)
+
+[Git Reference](http://gitref.org/)
 
 # Mastering GitHub Workflow
 
