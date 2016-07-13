@@ -2,16 +2,20 @@
 
 In this guide you'll discover how use GitHub 
 
-* Mastering Git Workflow
+* Mastering GitHub Workflow
 * Forkings projects
 * Create your first GitHub page
 * Managing Issues
 * Writing Markdown files
 * Being Social
 
-# Mastering Git Workflow
+# Mastering GitHub Workflow
 
 Git is an open source program for tracking changes in text files. It was written by the author of the Linux operating system, and is the core technology that GitHub, the social and user interface, is built on top of.
+
+## Discover GitHub Workflow
+
+
 
 ## Create a repository
 
@@ -60,9 +64,10 @@ git push
 
 ## Branch
 
-## Checkout
+## Documentations officielles
 
-## [Cheat Sheet](documents/github-git-cheat-sheet.pdf)
+[Cheat Sheet](documents/github-git-cheat-sheet.pdf)
+[Git Reference](http://gitref.org/)
 
 # Writing Markdown files
 
