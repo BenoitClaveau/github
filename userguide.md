@@ -21,7 +21,7 @@ A repository is the most basic element of GitHub. They're easiest to imagine as 
 
 ### Command Line Interface
 
-'''shell
+```shell
 mkdir [project-name]
 cd [project-name]
 git init
@@ -29,7 +29,7 @@ echo "me" >> contributors.txt
 git a .
 git commit -m "first commit"
 git push origin master
-'''
+```
 
 ### GitHub Web Interface
 
