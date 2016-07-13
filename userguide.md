@@ -45,6 +45,29 @@ Pull refers to when you are fetching in changes and merging them. For instance, 
 git pull
 ```
 
+## Push
+
+Pushing refers to sending your committed changes to a remote repository. For instance, if you change something locally, you'd want to then push those changes so that others may access them.
+
+### Command Line Interface
+
+```shell
+git commit -am "this is my local commit I want to push to remote repository"
+git push
+```
+
+Warning: if you created new file, you need to add it to your local repository before the commit.
+
+### New file
+
+### Command Line Interface
+
+```shell
+git add .
+git commit -am "new file"
+git push
+```
+
 # Writing Markdown files
 
 [guide](https://guides.github.com/features/mastering-markdown/)
