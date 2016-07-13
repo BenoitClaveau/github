@@ -19,8 +19,6 @@ Git is an open source program for tracking changes in text files. It was written
 
 A repository is the most basic element of GitHub. They're easiest to imagine as a project's folder. A repository contains all of the project files (including documentation), and stores each file's revision history. Repositories can have multiple collaborators and can be either public or private.
 
-### Command Line Interface
-
 ```shell
 mkdir [project-name]
 cd [project-name]
@@ -31,15 +29,11 @@ git commit -m "first commit"
 git push origin master
 ```
 
-### GitHub Web Interface
-
-[guide](https://help.github.com/articles/create-a-repo/)
+[GitHub Web Interface](https://help.github.com/articles/create-a-repo/)
 
 ## Pull
 
 Pull refers to when you are fetching in changes and merging them. For instance, if someone has edited the remote file you're both working on, you'll want to pull in those changes to your local copy so that it's up to date.
-
-### Command Line Interface
 
 ```shell
 git pull
@@ -49,8 +43,6 @@ git pull
 
 Pushing refers to sending your committed changes to a remote repository. For instance, if you change something locally, you'd want to then push those changes so that others may access them.
 
-### Command Line Interface
-
 ```shell
 git commit -am "this is my local commit I want to push to remote repository"
 git push
@@ -59,8 +51,6 @@ git push
 Warning: if you created new file, you need to add it to your local repository before the commit.
 
 ### New file
-
-### Command Line Interface
 
 ```shell
 git add .
