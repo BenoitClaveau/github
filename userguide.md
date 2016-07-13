@@ -50,13 +50,19 @@ git push
 
 Warning: if you created new file, you need to add it to your local repository before the commit.
 
-### Add
+## Add
 
 ```shell
 git add .
 git commit -am "new file"
 git push
 ```
+
+## Branch
+
+## Checkout
+
+## [Cheat Sheet](https://github.com/beny78/github/documents/github-git-cheat-sheet/)
 
 # Writing Markdown files
 
