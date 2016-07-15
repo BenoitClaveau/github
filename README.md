@@ -1,7 +1,7 @@
 Welcome to GitHub User Guide
 ============================
 
-In this guide you'll discover how use GitHub 
+In this guide you'll discover how use [GitHub](https://guides.github.com/)
 
 > - [Mastering Git Workflow](./git-workflow.md)
 > - Forkings projects

@@ -10,6 +10,7 @@ Git is an open source program for tracking changes in text files. It was written
 [Committing Changes](#commit)  
 [Pushing to a Remote Repository](#push)  
 [Pulling from the Remote Repository](#pull)  
+[Branching](#branch)  
 
 ##### Documentations
 [Cheat Sheet](documents/github-git-cheat-sheet.pdf)  
@@ -109,3 +110,31 @@ git pull
 ```
 
 Once the local repository is updated, any conflicting files will be observed and conflicts must be resolved, after which point editing can begin as normal until the local repository needs to be pushed back to the remote repository once again, and the process repeats until development is complete!
+
+<a name="branch"/>
+## Branching a repository
+
+Branching is the way to work on different versions of a repository at one time.
+
+By default your repository has one branch named __master__ which is considered to be the definitive branch.
+We use branches to __experiment__ and make __edits__ before committing them to __master__.
+
+When you create a branch off the master branch, you’re making a copy, or snapshot, of master as it was at that point in time. 
+If someone else made changes to the master branch while you were working on your branch, you could pull in those updates.
+
+![alt text][image-branching]
+
+### To create a new branch
+
+```shell
+git branch [branch name]
+git checkout [branch name]
+```
+
+Or
+
+![alt text][image-create-branch]
+
+
+[image-branching]: ./images/branching.png "Branch from master"
+[image-create-branch]: ./images/create-branch.gif "Create branch from master"
