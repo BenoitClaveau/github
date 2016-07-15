@@ -11,6 +11,8 @@ Git is an open source program for tracking changes in text files. It was written
 [Pushing to a Remote Repository](#push)  
 [Pulling from the Remote Repository](#pull)  
 [Branching](#branch)  
+[Opening a Pull Request](#pullrequest)  
+[Mergin youe Pull Request](#merge)  
 
 ##### Documentations
 [Cheat Sheet](documents/github-git-cheat-sheet.pdf)  
@@ -71,6 +73,10 @@ From [GitHub Web Interface](https://help.github.com/articles/create-a-repo/)
 git clone [url]
 ```
 
+On Tortoize
+
+//TODO
+
 <a name="add"/>
 ## Adding a File
 
@@ -79,6 +85,10 @@ We need to add some files to be version controlled. This can be accomplished by 
 ```shell
 git add .
 ```
+
+On Tortoize
+
+//TODO
 
 <a name="commit"/>
 ## Committing Changes
@@ -98,6 +108,10 @@ On GitHub
 
 ![alt text][image-commit]
 
+On Tortoize
+
+//TODO
+
 Warning: if you created new file, you need to add it to your local repository before committing.
 
 <a name="push"/>
@@ -109,6 +123,10 @@ Pushing refers to sending your committed changes to a remote repository. For ins
 git push
 ```
 
+On Tortoize
+
+//TODO
+
 <a name="pull"/>
 ## Pulling from the Remote Repository
 
@@ -117,6 +135,10 @@ Pull refers to when you are fetching in changes and merging them. For instance, 
 ```shell
 git pull
 ```
+
+On Tortoize
+
+//TODO
 
 Once the local repository is updated, any conflicting files will be observed and conflicts must be resolved, after which point editing can begin as normal until the local repository needs to be pushed back to the remote repository once again, and the process repeats until development is complete!
 
@@ -142,7 +164,38 @@ git checkout [branch name]
 
 On GitHub
 
+1. Click the drop down at the top of the file list that says branch: master.
+2. Type a branch name.
+3. Select the blue Create branch box or hit “Enter” on your keyboard.
+
 ![alt text][image-create-branch]
+
+On Tortoize
+
+//TODO
+
+<a name="pullrequest"/>
+## Opening a Pull Request
+
+Pull Requests are the heart of collaboration on GitHub. 
+When you open a pull request, you’re proposing your changes and requesting that someone review and pull in your contribution and merge them into their branch.
+
+As soon as you make a commit, you can open a pull request and start a discussion, even before the code is finished.
+
+1. Click the green New pull request button.
+2. Select your __feature__ branch to compare with __master__.
+3. Submit your Pull Request.
+
+<a name="merge"/>
+## Mergin your Pull Request
+
+Merging your __feature__ branch into the __master__ branch.
+
+On GitHub
+
+1. Click the green Merge pull request button to merge the changes into __master__.
+2. Click Confirm merge.
+3. Delete your __feature__ branch.
 
 [image-commit]: ./images/commit.png "Commit changes"
 [image-branching]: ./images/branching.png "Branch from master"
