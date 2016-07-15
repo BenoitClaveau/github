@@ -22,9 +22,7 @@ Mastering GitHub Workflow
 Git is an open source program for tracking changes in text files. It was written by the author of the Linux operating system, and is the core technology that GitHub, the social and user interface, is built on top of.
 
 
-## Create a repository
-
-### What is repository ?
+### <i class="icon-file"></i> Create a repository
 
 A repository is the most basic element of GitHub. They're easiest to imagine as a project's folder. A repository contains all of the project files (including documentation), and stores each file's revision history. Repositories can have multiple collaborators and can be either public or private.
 
@@ -40,7 +38,7 @@ git push origin master
 
 [GitHub Web Interface](https://help.github.com/articles/create-a-repo/)
 
-## Pull
+### Pull
 
 Pull refers to when you are fetching in changes and merging them. For instance, if someone has edited the remote file you're both working on, you'll want to pull in those changes to your local copy so that it's up to date.
 
