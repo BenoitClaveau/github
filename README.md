@@ -1,5 +1,5 @@
-Welcome to GitHub User Guides
-=============================
+Welcome to GitHub User Guide
+============================
 
 In this guide you'll discover how use GitHub 
 
