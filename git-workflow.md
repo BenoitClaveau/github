@@ -4,6 +4,7 @@ Mastering Git Workflow
 Git is an open source program for tracking changes in text files. It was written by the author of the Linux operating system, and is the core technology that GitHub, the social and user interface, is built on top of.
 
 ##### Table of Contents
+[Setting up Git](#setup)  
 [Initializing the Repository](#repository)  
 [Adding a file](#add)  
 [Committing Changes](#commit)  
@@ -13,6 +14,35 @@ Git is an open source program for tracking changes in text files. It was written
 ##### Documentations
 [Cheat Sheet](documents/github-git-cheat-sheet.pdf)  
 [Git Reference](http://gitref.org/)  
+
+<a name="setup"/>
+## Setting up Git
+
+1. Download and install the [latest version of Git](https://git-scm.com/downloads).
+2. Register your user name. 
+```shell
+git config --global user.name "YOUR NAME"
+```
+3. Register your email. 
+```shell
+git config --global user.email "YOUR EMAIL ADDRESS"
+```
+
+### Authentication
+
+Your authentication depends if you use HTTPS or SSH protocol.
+
+#### HTTPS
+
+If you clone with HTTPS, you can use a credential helper to tell Git to remember your GitHub username and password every time it talks to GitHub.
+With Git for Windows, running the following in the command line will store your credentials:
+```shell
+git config --global credential.helper wincred
+```
+
+#### SSH
+
+If you clone with SSH, your SSH keys will be automatically used.
 
 <a name="repository"/>
 ## Initializing the Repository
