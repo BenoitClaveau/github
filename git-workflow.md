@@ -89,6 +89,15 @@ Once a change has been made, it is best practice to commit that change to the re
 git commit -am "this is my local commit I want to push to remote repository"
 ```
 
+On GitHub
+
+1. Click the pencil icon in the upper right corner of the file view to edit.
+2. Modify the file.
+3. Write a commit message that describes your changes.
+4. Click Commit changes button.
+
+![alt text][image-commit]
+
 Warning: if you created new file, you need to add it to your local repository before committing.
 
 <a name="push"/>
@@ -131,10 +140,10 @@ git branch [branch name]
 git checkout [branch name]
 ```
 
-Or
+On GitHub
 
 ![alt text][image-create-branch]
 
-
+[image-commit]: ./images/commit.png "Commit changes"
 [image-branching]: ./images/branching.png "Branch from master"
 [image-create-branch]: ./images/create-branch.gif "Create branch from master"
