@@ -3,12 +3,17 @@ Mastering GitHub Workflow
 
 Git is an open source program for tracking changes in text files. It was written by the author of the Linux operating system, and is the core technology that GitHub, the social and user interface, is built on top of.
 
-### Official Git Documentation
+##### Table of Contents
+[Cheat Sheet](documents/github-git-cheat-sheet.pdf)
+[Git Reference](http://gitref.org/) 
+[Initializing the Repository](#repository)  
+[Adding a file](#add)  
+[Committing Changes](#commit)  
+[Pushing to a Remote Repository](#push)  
+[Pulling from the Remote Repository](#pull)  
 
-> - [Cheat Sheet](documents/github-git-cheat-sheet.pdf)
-> - [Git Reference](http://gitref.org/)
-
-### Initializing the Repository
+<a name="repository"/>
+## Initializing the Repository
 
 A repository is the most basic element of GitHub. They're easiest to imagine as a project's folder. A repository contains all of the project files (including documentation), and stores each file's revision history. Repositories can have multiple collaborators and can be either public or private.
 
@@ -32,6 +37,7 @@ From [GitHub Web Interface](https://help.github.com/articles/create-a-repo/)
 git clone [url]
 ```
 
+<a name="add"/>
 ## Adding a File
 
 We need to add some files to be version controlled. This can be accomplished by adding specific files by name using the git add command:
@@ -40,6 +46,7 @@ We need to add some files to be version controlled. This can be accomplished by 
 git add .
 ```
 
+<a name="commit"/>
 ## Committing Changes
 
 Once a change has been made, it is best practice to commit that change to the repository.  All commitments in Git require a commit message
@@ -50,6 +57,7 @@ git commit -am "this is my local commit I want to push to remote repository"
 
 Warning: if you created new file, you need to add it to your local repository before committing.
 
+<a name="push"/>
 ## Pushing to a Remote Repository
 
 Pushing refers to sending your committed changes to a remote repository. For instance, if you change something locally, you'd want to then push those changes so that others may access them.
@@ -58,7 +66,8 @@ Pushing refers to sending your committed changes to a remote repository. For ins
 git push
 ```
 
-### Pulling from the Remote Repository
+<a name="pull"/>
+## Pulling from the Remote Repository
 
 Pull refers to when you are fetching in changes and merging them. For instance, if someone has edited the remote file you're both working on, you'll want to pull in those changes to your local copy so that it's up to date.
 

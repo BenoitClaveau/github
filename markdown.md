@@ -19,7 +19,7 @@ This is intended as a quick reference and showcase. For more complete info, see 
 [Inline HTML](#html)  
 [Horizontal Rule](#hr)  
 [Line Breaks](#lines)  
-[Videos](#videos) 
+[Videos](#videos)  
 [Demo](#demo)
 
 <a name="headers"/>
