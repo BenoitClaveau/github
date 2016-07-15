@@ -12,4 +12,4 @@ Create your first GitHub page
 [Writing Markdown files](./markdown.md)
 Being Social
 
-[image]: ./images/commit.png "GitHub"
+[image]: ./images/banner.png "GitHub"
