@@ -178,23 +178,23 @@ Some text to show that the reference links can follow later.
 Here's our logo (hover to see the title text):
 
 Inline-style: 
-![alt text](./images/GitHub-Mark-32px "Logo Title Text 1")
+![alt text](./images/GitHub-Mark-32px.png "Logo Title Text 1")
 
 Reference-style: 
 ![alt text][logo]
 
-[logo]: ./images/GitHub-Mark-32px "Logo Title Text 2"
+[logo]: ./images/GitHub-Mark-32px.png "Logo Title Text 2"
 ```
 
 Here's our logo (hover to see the title text):
 
 Inline-style: 
-![alt text](./images/GitHub-Mark-32px "Logo Title Text 1")
+![alt text](./images/GitHub-Mark-32px.png "Logo Title Text 1")
 
 Reference-style: 
 ![alt text][logo]
 
-[logo]: ./images/GitHub-Mark-32px "Logo Title Text 2"
+[logo]: ./images/GitHub-Mark-32px.png "Logo Title Text 2"
 
 <a name="code"/>
 ## Code and Syntax Highlighting
