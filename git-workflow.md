@@ -1,4 +1,4 @@
-Mastering GitHub Workflow
+Mastering Git Workflow
 =========================
 
 Git is an open source program for tracking changes in text files. It was written by the author of the Linux operating system, and is the core technology that GitHub, the social and user interface, is built on top of.
