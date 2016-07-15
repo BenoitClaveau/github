@@ -1,28 +1,30 @@
-# GitHub User Guides
+Welcome to GitHub User Guides
+=============================
 
 In this guide you'll discover how use GitHub 
 
-* Mastering GitHub Workflow
-* Forkings projects
-* Create your first GitHub page
-* Managing Issues
-* Writing Markdown files
-* Being Social
+> - Mastering GitHub Workflow
+> - Forkings projects
+> - Create your first GitHub page
+> - Managing Issues
+> - Writing Markdown files
+> - Being Social
  
-# Official Documentation
+Official Documentation
+----------------------
 
-[Cheat Sheet](documents/github-git-cheat-sheet.pdf)
+> - [Cheat Sheet](documents/github-git-cheat-sheet.pdf)
+> - [Git Reference](http://gitref.org/)
 
-[Git Reference](http://gitref.org/)
-
-# Mastering GitHub Workflow
+Mastering GitHub Workflow
+-------------------------
 
 Git is an open source program for tracking changes in text files. It was written by the author of the Linux operating system, and is the core technology that GitHub, the social and user interface, is built on top of.
 
 
 ## Create a repository
 
-### What is repository
+### What is repository ?
 
 A repository is the most basic element of GitHub. They're easiest to imagine as a project's folder. A repository contains all of the project files (including documentation), and stores each file's revision history. Repositories can have multiple collaborators and can be either public or private.
 
