@@ -1,17 +1,5 @@
-Welcome to GitHub User Guides
-=============================
-
-In this guide you'll discover how use GitHub 
-
-> - Mastering GitHub Workflow
-> - Forkings projects
-> - Create your first GitHub page
-> - Managing Issues
-> - Writing Markdown files
-> - Being Social
-
 Mastering GitHub Workflow
--------------------------
+=========================
 
 Git is an open source program for tracking changes in text files. It was written by the author of the Linux operating system, and is the core technology that GitHub, the social and user interface, is built on top of.
 
@@ -79,10 +67,3 @@ git pull
 ```
 
 Once the local repository is updated, any conflicting files will be observed and conflicts must be resolved, after which point editing can begin as normal until the local repository needs to be pushed back to the remote repository once again, and the process repeats until development is complete!
-
-
-Writing Markdown files
-----------------------
-
-[guide](https://guides.github.com/features/mastering-markdown/)
-

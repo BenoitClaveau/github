@@ -7,5 +7,5 @@ In this guide you'll discover how use GitHub
 > - Forkings projects
 > - Create your first GitHub page
 > - Managing Issues
-> - Writing Markdown files
+> - [Writing Markdown files](./markdown.md)
 > - Being Social
