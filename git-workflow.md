@@ -4,13 +4,15 @@ Mastering Git Workflow
 Git is an open source program for tracking changes in text files. It was written by the author of the Linux operating system, and is the core technology that GitHub, the social and user interface, is built on top of.
 
 ##### Table of Contents
-[Cheat Sheet](documents/github-git-cheat-sheet.pdf)
-[Git Reference](http://gitref.org/) 
 [Initializing the Repository](#repository)  
 [Adding a file](#add)  
 [Committing Changes](#commit)  
 [Pushing to a Remote Repository](#push)  
 [Pulling from the Remote Repository](#pull)  
+
+##### Documentations
+[Cheat Sheet](documents/github-git-cheat-sheet.pdf)  
+[Git Reference](http://gitref.org/)  
 
 <a name="repository"/>
 ## Initializing the Repository
@@ -30,9 +32,10 @@ git push origin master
 ```
 From [GitHub Web Interface](https://help.github.com/articles/create-a-repo/)
 
-> - In the upper-right corner of any page, click +, and then click New repository
-> - Create a short name
-> - Choose between creating a public or private repository.
+- In the upper-right corner of any page, click +, and then click New repository
+- Create a short name
+- Choose between creating a public or private repository.
+
 ```
 git clone [url]
 ```
