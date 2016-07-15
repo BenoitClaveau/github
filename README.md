@@ -1,7 +1,7 @@
 Welcome to GitHub User Guide
+============================
 
 ![alt text][image]
-============================
 
 In this guide you'll discover how use [GitHub](https://guides.github.com/)
 

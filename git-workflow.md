@@ -1,6 +1,8 @@
 Mastering Git Workflow
 =========================
 
+![alt text][image]
+
 Git is an open source program for tracking changes in text files. It was written by the author of the Linux operating system, and is the core technology that GitHub, the social and user interface, is built on top of.
 
 ##### Table of Contents
@@ -197,6 +199,7 @@ On GitHub
 2. Click Confirm merge.
 3. Delete your __feature__ branch.
 
+[image]: ./images/workflow.png "GitHub"
 [image-commit]: ./images/commit.png "Commit changes"
 [image-branching]: ./images/branching.png "Branch from master"
 [image-create-branch]: ./images/create-branch.gif "Create branch from master"
