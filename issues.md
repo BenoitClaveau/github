@@ -7,9 +7,9 @@ GitHub issue connects automatically with your commit messages making it easy to 
 ##### Table of Contents
 
 [Create](#create)  
-[Search](#search) 
-[Label](#label)  
+[Search](#search)  
 [Milestrone](#milestrone)  
+[Label](#label)  
 
 <a name="create"/>
 ## Create
@@ -22,26 +22,39 @@ GitHub issue connects automatically with your commit messages making it easy to 
 <a name="search"/>
 ## Search
 
-<a name="label"/>
-## Label
-
-Use label:
-
-to define the priority
-- high
-- medium
-- low
-
-to assign velocity points
-- use Fibonacci number
-
-to easily filter items 
-- bug
-- feature
-- task
+The Issues and Pull Requests search bar allows you to define your own custom filters and sort by a wide variety of criteria.
+The full list of search filters are listed on [this guide](https://help.github.com/articles/searching-issues/).
 
 <a name="milestrone"/>
 ## Milestrone
 
 Create a milestrone and track your issues in your [dashboard](https://github.com/issues).
 
+GitHub can help you help manage your Scrum projects.
+Create a milestrone for your sprint.
+
+1. Click the issues button.
+> ![alt text][image-issues]
+2. Click create milestrone button.
+3. Modify issues and the select the right milestrone.
+
+<a name="label"/>
+## Label
+
+Labels allow you to further filter the collection of issues.
+Use labels to custom your Issue Management in a Scrum project.
+
+Define the priority
+- high
+- medium
+- low
+
+Assign velocity points
+- use Fibonacci number
+
+Easily filter items 
+- bug
+- feature
+- task
+
+[image-issues]: ./images/issues.png "Issues"
