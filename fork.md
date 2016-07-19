@@ -20,6 +20,7 @@ On GitHub
 
 - Open a project.
 - In the top-right corner of the page, click Fork.
+![alt text][image-fork]
 
 <a name="cloning"/>
 ## Clone your fork
@@ -49,6 +50,7 @@ origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
 git remote add upstream [original project url]
 ```
 
+[image-fork]: ./images/fork.png "Fork"
 Now, you can keep your fork synced with the upstream repository
 
 ```shell
