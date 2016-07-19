@@ -1,5 +1,5 @@
-Welcome to GitHub User Guide for BSC
-====================================
+Welcome to GitHub User Guide
+============================
 
 ![alt text][image]
 
