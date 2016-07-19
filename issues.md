@@ -33,8 +33,8 @@ Create a milestrone and track your issues in your [dashboard](https://github.com
 GitHub can help you help manage your Scrum projects.
 Create a milestrone for your sprint.
 
-1. Click the issues button.
-> ![alt text][image-issues]
+1. Click the issues button.  
+![alt text][image-issues]
 2. Click create milestrone button.
 3. Modify issues and the select the right milestrone.
 
