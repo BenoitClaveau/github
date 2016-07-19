@@ -3,15 +3,26 @@ Forking Repository
 
 A fork is a copy of a repository.
 Forking a repository allows you to freely experiment with changes without affecting the original project.
+
+##### Table of Contents
+[Forking](#forking)  
+[Cloning](#cloning)  
+[Synchronize](#synchronize)  
+
+## Forking
+
 A great example of using forks to propose changes is for bug fixes.
-Make a fix and submit a pull request the project owner.
+
+1. Make a fix.
+2. Submit a pull request.
 
 On GitHub
 
 - Open a project.
 - In the top-right corner of the page, click Fork.
 
-# Clone your fork
+<a name="cloning"/>
+## Clone your fork
 
 To be able to work on the project, you will need to clone it to your computer.
 
@@ -19,7 +30,8 @@ To be able to work on the project, you will need to clone it to your computer.
 git clone [url]
 ```
 
-# Synchrnization
+<a name="synchronize"/>
+## Synchronization
 
 Synchronize your fork with the original repository.
 
