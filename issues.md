@@ -25,6 +25,9 @@ GitHub issue connects automatically with your commit messages making it easy to 
 The Issues and Pull Requests search bar allows you to define your own custom filters and sort by a wide variety of criteria.
 The full list of search filters are listed on [this guide](https://help.github.com/articles/searching-issues/).
 
+Take a look at React's issues:
+![alt text][image-search]
+
 <a name="milestrone"/>
 ## Milestrone
 
@@ -58,3 +61,4 @@ Easily filter items
 - task
 
 [image-issues]: ./images/issues.png "Issues"
+[image-search]: ./images/search.png "Search issues"
