@@ -21,9 +21,10 @@ Git is an open source program for tracking changes in text files. It was written
 [Cheat Sheet](documents/github-git-cheat-sheet.pdf)  
 [Git Reference](http://gitref.org/)  
 
+<a name="setup"/>
 
 ## Setting up Git
-<a name="setup"/>
+
 
 1. Download and install the [latest version of Git](https://git-scm.com/downloads).
 2. Register your user name. 
@@ -52,6 +53,7 @@ git config --global credential.helper wincred
 If you clone with SSH, your SSH keys will be automatically used.
 
 <a name="repository"/>
+
 ## Initializing the Repository
 
 A repository is the most basic element of GitHub. They're easiest to imagine as a project's folder. A repository contains all of the project files (including documentation), and stores each file's revision history. Repositories can have multiple collaborators and can be either public or private.
@@ -83,6 +85,7 @@ On Tortoize
 
 
 <a name="svn"/>
+
 ## From SVN to Git
 
 ```shell
@@ -106,6 +109,7 @@ git svn clone http://my-repository/svn/ --authors-file=users.txt --no-metadata -
 ```
 
 <a name="add"/>
+
 ## Adding a File
 
 We need to add some files to be version controlled. This can be accomplished by adding specific files by name using the git add command:
@@ -119,6 +123,7 @@ On Tortoize
 //TODO
 
 <a name="commit"/>
+
 ## Committing Changes
 
 Once a change has been made, it is best practice to commit that change to the repository.  All commitments in Git require a commit message
@@ -143,6 +148,7 @@ On Tortoize
 Warning: if you created new file, you need to add it to your local repository before committing.
 
 <a name="push"/>
+
 ## Pushing to a Remote Repository
 
 Pushing refers to sending your committed changes to a remote repository. For instance, if you change something locally, you'd want to then push those changes so that others may access them.
@@ -156,6 +162,7 @@ On Tortoize
 //TODO
 
 <a name="pull"/>
+
 ## Pulling from the Remote Repository
 
 Pull refers to when you are fetching in changes and merging them. For instance, if someone has edited the remote file you're both working on, you'll want to pull in those changes to your local copy so that it's up to date.
@@ -171,6 +178,7 @@ On Tortoize
 Once the local repository is updated, any conflicting files will be observed and conflicts must be resolved, after which point editing can begin as normal until the local repository needs to be pushed back to the remote repository once again, and the process repeats until development is complete!
 
 <a name="branch"/>
+
 ## Branching a repository
 
 Branching is the way to work on different versions of a repository at one time.
@@ -203,6 +211,7 @@ On Tortoize
 //TODO
 
 <a name="pullrequest"/>
+
 ## Opening a Pull Request
 
 Pull Requests are the heart of collaboration on GitHub. 
@@ -215,6 +224,7 @@ As soon as you make a commit, you can open a pull request and start a discussion
 3. Submit your Pull Request.
 
 <a name="merge"/>
+
 ## Mergin your Pull Request
 
 Merging your __feature__ branch into the __master__ branch.
