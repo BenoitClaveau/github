@@ -105,7 +105,7 @@ bclaveau = Benoît Claveau <benoit.claveau@gmail.com>
 ```
 
 ```shell
-git svn clone http://my-repository/svn/ --authors-file=users.txt --no-metadata -s my-repositor
+git svn clone http://my-repository/svn/ --authors-file=users.txt --no-metadata
 ```
 
 * Tags all SVN tags
