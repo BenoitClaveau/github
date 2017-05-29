@@ -8,6 +8,7 @@ Git is an open source program for tracking changes in text files. It was written
 ##### Table of Contents
 [Setting up Git](#setup)  
 [Initializing the Repository](#repository)  
+[From SVN to Git](#svn)
 [Adding a file](#add)  
 [Committing Changes](#commit)  
 [Pushing to a Remote Repository](#push)  
@@ -78,6 +79,30 @@ git clone [url]
 On Tortoize
 
 //TODO
+
+
+<a name="svn"/>
+## From SVN to Git
+
+```shell
+git svn clone http://my-repository/svn/
+```
+
+* List all developers
+
+```shell
+git shortlog -sn
+```
+
+* Create users.txt and import
+
+```text
+bclaveau = Benoît Claveau <benoit.claveau@gmail.com>
+```
+
+```shell
+git svn clone http://my-repository/svn/ --authors-file=users.txt --no-metadata -s my-repositor
+```
 
 <a name="add"/>
 ## Adding a File
