@@ -23,6 +23,7 @@ On GitHub
 ![alt text][image-fork]
 
 <a name="cloning"/>
+
 ## Clone your fork
 
 To be able to work on the project, you will need to clone it to your computer.
@@ -32,6 +33,7 @@ git clone [url]
 ```
 
 <a name="synchronize"/>
+
 ## Synchronization
 
 Synchronize your fork with the original repository.
