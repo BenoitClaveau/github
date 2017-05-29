@@ -21,8 +21,9 @@ Git is an open source program for tracking changes in text files. It was written
 [Cheat Sheet](documents/github-git-cheat-sheet.pdf)  
 [Git Reference](http://gitref.org/)  
 
-<a name="setup"/>
+
 ## Setting up Git
+<a name="setup"/>
 
 1. Download and install the [latest version of Git](https://git-scm.com/downloads).
 2. Register your user name. 
