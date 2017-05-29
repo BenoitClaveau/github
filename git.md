@@ -108,6 +108,22 @@ bclaveau = Benoît Claveau <benoit.claveau@gmail.com>
 git svn clone http://my-repository/svn/ --authors-file=users.txt --no-metadata -s my-repositor
 ```
 
+* Tags all SVN tags
+
+```shell
+git for-each-ref refs/remotes/tags | cut -d / -f 4- | grep -v @ | while read tagname; do
+git tag "$tagname" "tags/$tagname"; git branch -r -d "tags/$tagname";
+done
+```
+
+* Branches all SVN branches
+
+```shell
+git for-each-ref refs/remotes/tags | cut -d / -f 4- | grep -v @ | while read tagname; do
+git tag "$tagname" "tags/$tagname"; git branch -r -d "tags/$tagname";
+done
+```
+
 <a name="add"/>
 
 ## Adding a File
