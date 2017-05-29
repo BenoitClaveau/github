@@ -9,6 +9,7 @@ The quickest way to get up and running is by using the Automatic Page Generator.
 [Project Pages](#project)  
 
 <a name="user"/>
+
 ## User & Organization Pages
 
 User & Organization Pages live in a special repository dedicated to GitHub Enterprise Pages files. You will need to name this repository with the account name, e.g.
@@ -17,6 +18,7 @@ User & Organization Pages live in a special repository dedicated to GitHub Enter
 - Content from the master branch will be used to build and publish your GitHub Enterprise Pages site.
 
 <a name="project"/>
+
 ## Project Pages
 
 - User Pages are available at https://[hostname]/pages/<username>.
